@@ -1,0 +1,120 @@
+/* IMAGEM DE FUNDO */
+body {
+    background-image: url('/static/images/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* h1 */
+h1 {
+    text-align: center;
+    color: rgb(23, 147, 255);
+    top: 25px;
+}
+
+strong{
+    color: rgb(23, 147, 255);
+}
+
+.tabela .col{
+    color: #50a7ee;
+}
+
+.tabela p{
+    color: rgb(255, 255, 255);
+}
+/* BOTAO */
+.button {
+    width: 100px;
+    align-items: end;
+    --color: #ffffff;
+    padding: 0.8em 1.7em;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 100;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    display: flex; 
+    justify-content: center; 
+    align-items: end;
+    margin-bottom: 40px;
+}
+
+.button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+}
+
+.button::before {
+    top: -1em;
+    left: -1em;
+}
+
+.button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+}
+
+.button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+}
+
+.button:hover {
+    color: rgb(255, 255, 255);
+}
+
+.button:active {
+    filter: brightness(.8);
+}
+
+/* BOTAO A DIREITA */
+.buttom-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    border: none;
+}
+
+
+/* DIVS BRANCAS */
+div{
+    color: #ffffff;
+}
+
+
+
+/* QUADRARO DA TABELA */
+.col{
+    border: solid 1px;
+    border-radius: 5px;
+    color: rgb(23, 147, 255)
+}
+
+.valortt{
+    font-size: x-large;
+}
+
+
+
+/* CAMPO DE INSERIR VALOR */
+.valor_investir{
+    margin-top: 40px;
+}
+

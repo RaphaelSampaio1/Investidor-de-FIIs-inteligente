@@ -1,0 +1,32 @@
+# Integrar com API Yahoo Finance para pegar dados como ticker e p/vp--(OK)
+
+# Criar interface visual--(OK)
+
+# Cadastro de empresa fazendo filtro no Yahoo Finance, puxando automaticamente valor e p/vp--(OK)
+
+# armazenar dados a um banco de dados
+
+
+# VALORES A DIVIDIR :
+- galpao logistico = 40%
+- tijolo = 17%
+- papel = 17%
+- fundo de fundos = 18%
+- shopping = 8%    --(OK)
+
+# Opção para inserir valor de compra, ao colocar $xxx valor, ele repartirá o valor nessas porcentagens
+  dando preferência de compra para empresas com p/vp abaixo de 1
+
+# Valores de cotações dividos por porcentagem ja calculados--(OK) 
+
+# Adicionar quantidade recomendada de compra nos campos de 'quantidade' e 'valor total'--(OK)
+  
+# Adicionar botão "Aplicar" para quando for apertado, ele armazenar a quantidade, ticker , soma do valor total investido e armazenar na janela principal --(OK)
+
+# Ajustar saida de "Valor Total" na aba de investimentos
+
+# Ajustar saida de "Valor Total" na tela inicial
+
+#
+
+#
