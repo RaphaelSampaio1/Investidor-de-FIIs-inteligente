@@ -28,3 +28,9 @@ O valor simulado é distribuído entre esses fundos de acordo com as porcentagen
 
 Este sistema não apenas melhora a organização dos meus investimentos, mas também proporciona uma maneira prática e automatizada de gerenciar minha carteira de FIIs. A combinação de Python, Flask e AWS garante um desempenho robusto e escalável.
 
+## Configuração da Conexão com o Banco de Dados
+
+Para conectar o sistema ao banco de dados PostgreSQL, é necessário fornecer as credenciais corretas. Você deve configurar a URI de conexão no Flask com a seguinte string:
+
+```python
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:SUASENHA@localhost:5432/investimento_fii'
