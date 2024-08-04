@@ -19,7 +19,7 @@ else:
     print(f'Error : {connection_status_sql}')
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:24raphael01@localhost:5432/investimento_fii'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:SUASENHA@localhost:5432/investimento_fii'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
