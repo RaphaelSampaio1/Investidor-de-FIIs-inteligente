@@ -7,7 +7,7 @@ import psycopg2
 connection=psycopg2.connect(database='investimento_fii',
                          host='localhost',
                          user='postgres',
-                         password='SUA SENHA',
+                         password='SUA SENHA',   # Substitua pela sua senha real
                          port='5432'
                          )
 
