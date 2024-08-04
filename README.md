@@ -1,28 +1,30 @@
-# Investidor-de-FIIs-inteligente
+# Sistema de Gerenciamento de Investimentos em FIIs
 
-Este projeto foi desenvolvido; por mim para automatizar a gestão de investimentos em Fundos de Investimento Imobiliário (FIIs). Utilizando uma combinação de Python, Flask, SQLite, Bootstrap, HTML, CSS, Beautifulsoup e a API da Yfinance, o sistema permite simular e aplicar investimentos de maneira eficiente.
+Desenvolvi um sistema para organizar e gerenciar meus investimentos em FIIs utilizando Python, Flask e AWS!
 
-## Funcionalidades Principais
-- 1. Tela Inicial e Simulação de Investimento:
-Tela Inicial: Exibe o valor total atualmente investido em FIIs.
-Simulação de Investimento: Permite ao usuário inserir o valor desejado para investir e simular a distribuição ideal entre diferentes tipos de fundos (Logística, Papel, Fundos de Fundos, etc.).
-- 2. Aplicação de Investimento:
+Este projeto foi criado para facilitar e otimizar a administração da minha carteira de Fundos de Investimento Imobiliário (FIIs). O sistema combina tecnologias modernas para fornecer uma solução eficiente e intuitiva. Confira os detalhes abaixo:
 
-Após a simulação, o usuário pode confirmar e aplicar os investimentos sugeridos pelo sistema.
-Os dados são armazenados automaticamente no banco de dados SQLite, atualizando o valor total investido na página inicial.
+## Tecnologias Utilizadas:
+- **Python e Flask**: Para o desenvolvimento do backend e lógica de aplicação.
+- **PostgreSQL**: Banco de dados utilizado para armazenar informações dos investimentos, hospedado na AWS.
+- **SQLAlchemy**: Biblioteca ORM para integrar o Flask com o PostgreSQL.
+- **AWS**: Para o deploy do banco de dados PostgreSQL, garantindo alta disponibilidade e escalabilidade.
 
-## Como Utilizar
-Pré-requisitos:
-Certifique-se de ter instalada a extensão SQLTools e SQLite caso esteja utilizando o VSCode.
-Clone ou faça o download do código para sua máquina local.
+## Funcionalidades Principais:
+- **Tela Inicial**: Visualize o valor total investido em FIIs e acompanhe a performance da carteira de maneira clara e objetiva.
+- **Simulação de Investimento**: Simule novos investimentos inserindo o valor desejado. O sistema calcula e sugere a melhor distribuição com base nas porcentagens definidas para cada tipo de fundo.
+- **Aplicação de Investimento**: Após a simulação, aplique os investimentos diretamente no sistema. Os dados são armazenados no banco de dados PostgreSQL para um gerenciamento seguro e eficiente.
+- **Atualização em Tempo Real**: A página inicial é atualizada automaticamente com os novos valores investidos, refletindo as aplicações recentes.
 
-## Execução:
+## Fundos de Investimento Imobiliário (FIIs) Incluídos:
+Os fundos disponíveis no sistema são:
+- **HGLG11**
+- **HFOF11**
+- **MXRF11**
+- **VILG11**
+- **RZTR11**
 
-Abra o terminal.
-Navegue até o diretório onde o código foi baixado.
-Execute o arquivo app.py usando Python.
+O valor simulado é distribuído entre esses fundos de acordo com as porcentagens detalhadas no código. Cada fundo possui uma alocação específica, ajustada para otimizar a distribuição do investimento com base nas características de cada fundo.
 
-## Observações:
-Se houver lentidão, isso pode ser devido à integração com a API do Yfinance para coleta de dados em tempo real.
-Contribuições e Feedback
-Se você tiver interesse em contribuir com melhorias ou sugestões para este projeto, sinta-se à vontade para fazer um fork e enviar um pull request. Qualquer feedback é muito bem-vindo!
+Este sistema não apenas melhora a organização dos meus investimentos, mas também proporciona uma maneira prática e automatizada de gerenciar minha carteira de FIIs. A combinação de Python, Flask e AWS garante um desempenho robusto e escalável.
+
